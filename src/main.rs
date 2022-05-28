@@ -58,7 +58,6 @@ fn main() {
             attrset(COLOR_PAIR(pair));
             mv(index as i32, 0);
             addstr(*todo);
-            //attroff(COLOR_PAIR(pair));
         }
 
         refresh();
